@@ -42,6 +42,7 @@ public class FormProd extends AppCompatActivity {
             produto.setId(altproduto.getId());
         }else{
             btnVariavel.setText("Salvar");
+            //
         }
 
         btnVariavel.setOnClickListener(new View.OnClickListener(){
